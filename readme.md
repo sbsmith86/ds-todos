@@ -35,7 +35,7 @@ Now you should be all set! Go to the url you set up in Homestead (i.e `http://ds
 
 ### Notes
 
-* You have until 8/24 at 3:00pm (EST) to complete the assignment
+* You have until 8/24 at 3:00pm (EST) to complete the assignment. Email me a link to your fork of this repository as the submission.
 * If you need any clarification on these instructions, send questions my way and I will answer them to the best of my ability. My email address is `ssmith@dosomething.org`
 * Use any further documentation you want to complete the assignment, but the [laravel documentation](http://laravel.com) is pretty solid. Check it out!
 * Bonus: feel free to make the app look better, not required, but it is pretty hard to look at as it stands now.
