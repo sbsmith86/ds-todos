@@ -43,6 +43,7 @@ class TodoController extends Controller
 
         $task = new Todo;
         $task->name = $request->name;
+        $task->description = $request->description;
         $task->save();
 
         return redirect('/todo');

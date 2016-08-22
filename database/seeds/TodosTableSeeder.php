@@ -12,15 +12,18 @@ class TodosTableSeeder extends Seeder
     public function run()
     {
         DB::table('todos')->insert([
-            'name' => 'Task One',
+            'name' => 'Set up app on Homestead',
+            'description' => 'Set up a new laravel app using Homestead for local development.',
         ]);
 
         DB::table('todos')->insert([
-            'name' => 'Task Two',
+            'name' => 'Add migrations',
+            'description' => 'Add migrations to set up the database.',
         ]);
 
         DB::table('todos')->insert([
-            'name' => 'Task Three',
+            'name' => 'Create database seeders',
+            'description' => 'Create database seeder classes',
         ]);
     }
 }

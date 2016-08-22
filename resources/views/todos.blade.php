@@ -12,12 +12,21 @@
         <form action="{{ url('todo') }}" method="POST" class="form-horizontal">
             {{ csrf_field() }}
 
-            <!-- todo Name -->
+            <!-- todo name -->
             <div class="form-group">
-                <label for="todo" class="col-sm-3 control-label">Todo</label>
+                <label for="name" class="col-sm-3 control-label">Todo Name</label>
 
                 <div class="col-sm-6">
                     <input type="text" name="name" id="todo-name" class="form-control">
+                </div>
+            </div>
+
+            <!-- todo description -->
+            <div class="form-group">
+                <label for="description" class="col-sm-3 control-label">Description</label>
+
+                <div class="col-sm-6">
+                    <input type="textarea" name="description" id="todo-description" class="form-control">
                 </div>
             </div>
 

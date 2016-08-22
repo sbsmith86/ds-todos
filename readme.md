@@ -4,15 +4,15 @@
 
 This repo contains all the code for a simple todo list application built using the [Laravel](https://laravel.com) Framework and the Bootstrap CSS Framework.
 
-Your assignment is to:
-
-* Fork and clone this repository and set it up as a locall app running inside [Homestead](https://github.com/laravel/homestead).
-* Follow the installation instructions below onces you have set it up in Homestead.
-* You will notice that the application allows you to add a Todo, view all todos, and delete a todo. Your assignment is to link each todo to it's own page that displays more information about the todo.
+Your assignment is to add a feature that satisfies this user story:
 
 ```
 As a user, I want to be able to click on a individual todo to see more detail about the task.
 ```
+
+* Fork and clone this repository and set it up as a locall app running inside [Homestead](https://github.com/laravel/homestead).
+* Follow the installation instructions below onces you have set it up in Homestead.
+* You will notice that the application allows you to add a Todo, view all todos, and delete a todo. Your assignment is to link each todo to it's own page that displays more information about the todo.
 
 ### Installation instructions
 
@@ -33,6 +33,11 @@ Now you should be all set! Go to the url you set up in Homestead (i.e `http://ds
 
 ---
 
+### Notes
+
+* You have until 8/24 at 3:00pm (EST) to complete the assignment
+* If you need any clarification on these instructions, send questions my way and I will answer them to the best of my ability. My email address is `ssmith@dosomething.org`
+* Use any further documentation you want to complete the assignment, but the [laravel documentation](http://laravel.com) is pretty solid. Check it out!
 
 ## Laravel PHP Framework
 
