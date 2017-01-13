@@ -1,4 +1,4 @@
-# DoSomething Software Engineering Fall Internship Homework
+# DoSomething Software Engineering Spring Internship Homework
 
 ### The Assignment
 
