@@ -12,7 +12,7 @@ As a user, I want to be able to click on a individual todo to see more detail ab
 
 * For local development, Fork and clone this repository and set it up as a local app running inside [Homestead](https://laravel.com/docs/5.2/homestead).
 * Follow the installation instructions below once you have set it up in Homestead.
-* You will notice that the application allows you to add a todo, view all todos, and delete a todo. Todos are composed of a `name` and a `description`. Your assignment is to link each todo to it's own page (`i.e. http://ds-todos.app/todo/2`) that displays both the name and description of the todo.
+* You will notice that the application allows you to add a todo, view all todos, and delete a todo. Todos are composed of a `name` and a `description`. Your assignment is to link each todo to it's own page (`i.e. http://ds-todos.test/todo/2`) that displays both the name and description of the todo.
 
 ### Installation instructions
 
