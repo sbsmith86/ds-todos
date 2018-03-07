@@ -57,15 +57,33 @@ class TodoController extends Controller
      */
     public function show($id)
     {
-//       return view('details', [
-//            'id' => $id
-//        ]);
-      return view('show')->with('id', $id);
+      
+      $todo = Todo::find($id);
+      $name = $todo->name;
+      $description = $todo->description;
+      return view('show',[
+        'todo' => $todo,
+        'name' => $name,
+        'description' => $description
+        
+      ]);
+//        $name = Todo::where('id', '=', $id)->get('name');
+//
+//       return view('show', [
+//        'name' => $name,
+//        'id' => $id
+//      ]);
+//       return view('show', [
+//         'todo' => Todo::findOrFail($id),
+//       
+//       ]);
     }
+  
+  
     public function test()
     {
       $title = 'hello world!';
-      return view('test')->with('title', $title);
+      return view('test');
     }
 
     /**

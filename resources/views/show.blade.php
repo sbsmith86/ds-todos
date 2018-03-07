@@ -2,6 +2,6 @@
 
 @section('content')
 
-
 <h1>DETAILS</h1>
-<h2>The id is {{$id}}.</h2>
+<h2>Name: {{$name}}</h2>
+<h2>Description: {{$description}}</h2>
