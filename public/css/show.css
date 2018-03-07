@@ -1,6 +1,11 @@
 h1, h2{
-  text-align: center;
+  
 }
-button{
-  margin-left: 40%;
+.content {
+  text-align: center;
+  font-family: Montserrat;
+  margin-top: 5%;
+}
+.btn.btn-secondary{
+  margin-top: 2%;
 }
