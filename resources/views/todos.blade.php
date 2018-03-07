@@ -68,6 +68,17 @@
                                 </td>
 
                                 <td>
+                                   <!-- View Button -->
+                                    <td>
+                                        <form action="{{ url('todo/'.$todo->id) }}" method="POST">
+                                            {{ csrf_field() }}
+                                            {{ method_field('VIEW') }}
+
+                                            <button type="submit" class="btn btn-primary">
+                                                <i class="fa fa-trash"></i> View
+                                            </button>
+                                        </form>
+                                    </td>
                                     <!-- Delete Button -->
                                     <td>
                                         <form action="{{ url('todo/'.$todo->id) }}" method="POST">

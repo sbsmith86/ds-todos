@@ -57,7 +57,15 @@ class TodoController extends Controller
      */
     public function show($id)
     {
-        // Write the code for your assignment here.
+//       return view('details', [
+//            'id' => $id
+//        ]);
+      return view('details');
+    }
+    public function test()
+    {
+
+      return view('test');
     }
 
     /**
