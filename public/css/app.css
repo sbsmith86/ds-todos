@@ -1,12 +1,14 @@
 body {
-  background-color: deepskyblue;
+  background-color: #4e2b63;
+  color: white;
 }
 h1 {
   text-align: center;
-  font-family: 'Rammetto One', cursive;
+  font-family: 'Montserrat';
+  font-weight: 600;
 }
 .form-group{
-  font-family: 'Rammetto One';
+  font-family: 'Montserrat';
 }
 .panel{
   font-family: 'PT Sans', sans-serif;
@@ -25,4 +27,29 @@ td {
 
 #add{
   margin-left: 10%;
+}
+.panel-default > .panel-heading {
+  background: black;
+  color:white;
+}
+.btn.btn-secondary {
+  background-color:#222 !important;
+  color: white !important;
+}
+.btn.btn-delete {
+  background-color:  #ddd !important;
+  color: #222 !important;
+
+}
+tbody{
+  color:black;
+}
+img {
+  height:15%;
+  width:10%;
+  position:absolute;
+  top: 3%;
+}
+#header{
+
 }

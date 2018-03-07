@@ -43,7 +43,7 @@
 
     <!-- Current todos -->
     @if (count($todos) > 0)
-        <div class="panel panel-primary">
+        <div class="panel panel-default">
             <div class="panel-heading">
                 Things to do
             </div>
@@ -67,7 +67,7 @@
 <!--                                            {{ csrf_field() }}-->
 <!--                                            {{ method_field('SHOW') }}-->
 
-                                            <button type="submit" class="btn btn-primary">
+                                            <button type="submit" class="btn btn-secondary">
                                                 <i class="fa fa-trash"></i> Show
                                             </button>
                                         </form>
@@ -78,7 +78,7 @@
                                             {{ csrf_field() }}
                                             {{ method_field('DELETE') }}
 
-                                            <button type="submit" class="btn btn-danger">
+                                            <button type="submit" class="btn btn-secondary btn-delete">
                                                 <i class="fa fa-trash"></i> Delete
                                             </button>
                                         </form>

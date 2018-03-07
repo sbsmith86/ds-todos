@@ -1,6 +1,7 @@
 @extends('layouts.app')
-
+<link rel="stylesheet"href="{{ URL::asset('css/show.css') }}">
 @section('content')
+
 
 <h1>DETAILS</h1>
 <h2>Name: {{$name}}</h2>
