@@ -4,7 +4,7 @@
 
     <!-- Bootstrap Boilerplate... -->
 
-    <div class="panel-body">
+    <div class="panel-body" id="add">
         <!-- Display Validation Errors -->
         @include('common.errors')
 
@@ -16,7 +16,7 @@
             <div class="form-group">
                 <label for="name" class="col-sm-3 control-label">Todo Name</label>
 
-                <div class="col-sm-2">
+                <div class="col-sm-4">
                     <input type="text" name="name" id="todo-name" class="form-control">
                 </div>
             </div>
@@ -25,7 +25,7 @@
             <div class="form-group">
                 <label for="description" class="col-sm-3 control-label">Description</label>
 
-                <div class="col-sm-5">
+                <div class="col-sm-6">
                     <input type="textarea" name="description" id="todo-description" class="form-control">
                 </div>
             </div>
@@ -43,19 +43,13 @@
 
     <!-- Current todos -->
     @if (count($todos) > 0)
-        <div class="panel panel-default">
+        <div class="panel panel-primary">
             <div class="panel-heading">
-                Current todos
+                Things to do
             </div>
 
             <div class="panel-body">
-                <table class="table table-striped todo-table">
-
-                    <!-- Table Headings -->
-                    <thead>
-                        <th>Things to do</th>
-                        <th>&nbsp;</th>
-                    </thead>
+                <table class="table table-striped todo-table table-hover">
 
                     <!-- Table Body -->
                     <tbody>

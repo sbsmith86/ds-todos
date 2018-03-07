@@ -1,5 +1,5 @@
 body {
-  background-color: aquamarine;
+  background-color: deepskyblue;
 }
 h1 {
   text-align: center;
@@ -10,4 +10,19 @@ h1 {
 }
 .panel{
   font-family: 'PT Sans', sans-serif;
+}
+td {
+    width:80%;
+}
+.panel-heading, th{
+  text-align: center;
+}
+
+.panel{
+  width:66.6%;
+  margin-left: 17%;
+}
+
+#add{
+  margin-left: 10%;
 }
