@@ -68,14 +68,14 @@
                                 </td>
 
                                 <td>
-                                   <!-- View Button -->
+                                   <!-- SHOW Button -->
                                     <td>
-                                        <form action="{{ url('todo/'.$todo->id) }}" method="POST">
+                                        <form action="{{ url('todo/'.$todo->id) }}" method="GET">
                                             {{ csrf_field() }}
-                                            {{ method_field('VIEW') }}
+<!--                                            {{ method_field('SHOW') }}-->
 
                                             <button type="submit" class="btn btn-primary">
-                                                <i class="fa fa-trash"></i> View
+                                                <i class="fa fa-trash"></i> SHOW
                                             </button>
                                         </form>
                                     </td>

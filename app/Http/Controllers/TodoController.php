@@ -60,12 +60,12 @@ class TodoController extends Controller
 //       return view('details', [
 //            'id' => $id
 //        ]);
-      return view('details');
+      return view('show')->with('id', $id);
     }
     public function test()
     {
-
-      return view('test');
+      $title = 'hello world!';
+      return view('test')->with('title', $title);
     }
 
     /**
