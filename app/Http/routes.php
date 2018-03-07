@@ -14,12 +14,5 @@
 Route::get('/', function () {
     return redirect()->route('todo.index');
 });
-//Route::get('/{id}', function($id) {
-//    return redirect()->route('todo.show');
-//});
-//Route::get('/hello', function ($id) {
-//    return redirect()->route('todo.show', $id);
-//});
 Route::get('/test', 'TodoController@test');
-Route::get('/todo/{id}', 'TodoController@show');
 Route::resource('todo', 'TodoController');

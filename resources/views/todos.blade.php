@@ -16,7 +16,7 @@
             <div class="form-group">
                 <label for="name" class="col-sm-3 control-label">Todo Name</label>
 
-                <div class="col-sm-6">
+                <div class="col-sm-2">
                     <input type="text" name="name" id="todo-name" class="form-control">
                 </div>
             </div>
@@ -25,7 +25,7 @@
             <div class="form-group">
                 <label for="description" class="col-sm-3 control-label">Description</label>
 
-                <div class="col-sm-6">
+                <div class="col-sm-5">
                     <input type="textarea" name="description" id="todo-description" class="form-control">
                 </div>
             </div>
@@ -42,7 +42,6 @@
     </div>
 
     <!-- Current todos -->
-    <!-- Current todos -->
     @if (count($todos) > 0)
         <div class="panel panel-default">
             <div class="panel-heading">
@@ -54,7 +53,7 @@
 
                     <!-- Table Headings -->
                     <thead>
-                        <th>todo</th>
+                        <th>Things to do</th>
                         <th>&nbsp;</th>
                     </thead>
 
@@ -71,11 +70,11 @@
                                    <!-- SHOW Button -->
                                     <td>
                                         <form action="{{ url('todo/'.$todo->id) }}" method="GET">
-                                            {{ csrf_field() }}
+<!--                                            {{ csrf_field() }}-->
 <!--                                            {{ method_field('SHOW') }}-->
 
                                             <button type="submit" class="btn btn-primary">
-                                                <i class="fa fa-trash"></i> SHOW
+                                                <i class="fa fa-trash"></i> Show
                                             </button>
                                         </form>
                                     </td>
