@@ -14,17 +14,16 @@ h1 {
   font-family: 'PT Sans', sans-serif;
 }
 td {
-    width:80%;
+  width:80%;
+  color:black;
 }
 .panel-heading, th{
   text-align: center;
 }
-
 .panel{
   width:66%;
   margin-left: 17%;
 }
-
 #add{
   margin-left: 10%;
 }
@@ -39,10 +38,6 @@ td {
 .btn.btn-delete {
   background-color:  #ddd !important;
   color: #222 !important;
-
-}
-tbody{
-  color:black;
 }
 img {
   height:15%;

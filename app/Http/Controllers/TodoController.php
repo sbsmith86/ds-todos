@@ -66,9 +66,10 @@ class TodoController extends Controller
         'name' => $name,
         'description' => $description
       ]);
+      
     }
   
-  
+    /* Testing embedded variables and views*/
     public function test()
     {
       $title = 'hello world!';

@@ -47,12 +47,24 @@ class TodosTableSeeder extends Seeder
         ]);
       
         DB::table('todos')->insert([
-            'name' => 'Love each other y\'all',
-            'description' => 'Love in the face of hate and always be kind to one another.',
+            'name' => 'Browse memes',
+            'description' => 'not for too long though lol',
         ]);
+      
+        DB::table('todos')->insert([
+            'name' => 'Get some sleep!',
+            'description' => 'Can\'t take care of others without taking care of yourself first',
+        ]);
+      
+        DB::table('todos')->insert([
+            'name' => 'Love each other y\'all',
+            'description' => 'Love in the face of hate. Always be kind to and support one another.',
+        ]);
+      
         DB::table('todos')->insert([
             'name' => 'Change the world',
             'description' => 'There is so much pain, inequality, and injustice in the world but we all have the power to do something about it.',
         ]);
+      
     }
 }
