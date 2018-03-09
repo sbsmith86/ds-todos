@@ -4,7 +4,7 @@
 
     <!-- Bootstrap Boilerplate... -->
 
-    <div class="panel-body">
+    <div class="panel-body" id="add">
         <!-- Display Validation Errors -->
         @include('common.errors')
 
@@ -16,7 +16,7 @@
             <div class="form-group">
                 <label for="name" class="col-sm-3 control-label">Todo Name</label>
 
-                <div class="col-sm-6">
+                <div class="col-sm-4">
                     <input type="text" name="name" id="todo-name" class="form-control">
                 </div>
             </div>
@@ -42,21 +42,14 @@
     </div>
 
     <!-- Current todos -->
-    <!-- Current todos -->
     @if (count($todos) > 0)
         <div class="panel panel-default">
             <div class="panel-heading">
-                Current todos
+                Things to do
             </div>
 
             <div class="panel-body">
-                <table class="table table-striped todo-table">
-
-                    <!-- Table Headings -->
-                    <thead>
-                        <th>todo</th>
-                        <th>&nbsp;</th>
-                    </thead>
+                <table class="table table-striped todo-table table-hover">
 
                     <!-- Table Body -->
                     <tbody>
@@ -68,13 +61,24 @@
                                 </td>
 
                                 <td>
+                                   <!-- SHOW Button -->
+                                    <td>
+                                        <form action="{{ url('todo/'.$todo->id) }}" method="GET">
+<!--                                            {{ csrf_field() }}-->
+<!--                                            {{ method_field('SHOW') }}-->
+
+                                            <button type="submit" class="btn btn-secondary">
+                                                <i class="fa fa-trash"></i> Show
+                                            </button>
+                                        </form>
+                                    </td>
                                     <!-- Delete Button -->
                                     <td>
                                         <form action="{{ url('todo/'.$todo->id) }}" method="POST">
                                             {{ csrf_field() }}
                                             {{ method_field('DELETE') }}
 
-                                            <button type="submit" class="btn btn-danger">
+                                            <button type="submit" class="btn btn-secondary btn-delete">
                                                 <i class="fa fa-trash"></i> Delete
                                             </button>
                                         </form>

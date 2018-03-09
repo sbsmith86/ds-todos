@@ -25,5 +25,46 @@ class TodosTableSeeder extends Seeder
             'name' => 'Create database seeders',
             'description' => 'Create database seeder classes',
         ]);
+      
+        DB::table('todos')->insert([
+            'name' => 'Treat myself for getting set up ayyee',
+            'description' => 'get some black sesame ice cream',
+        ]);
+      
+        DB::table('todos')->insert([
+            'name' => 'Cook a dank french omelette',
+            'description' => 'Nonstick pan, medium heat, butter, salt, pepper, chives if you feelin\' fancy',
+        ]);
+      
+        DB::table('todos')->insert([
+            'name' => 'Practice speaking Spanish',
+            'description' => 'Me gusta tanto el español y la cultura Mexicana, ojalá tuviera más tiempo para practicar hablar.',
+        ]);
+      
+        DB::table('todos')->insert([
+            'name' => 'Make a Spotify playlist',
+            'description' => 'no such thing as too many spotify playlists',
+        ]);
+      
+        DB::table('todos')->insert([
+            'name' => 'Browse memes',
+            'description' => 'not for too long though lol',
+        ]);
+      
+        DB::table('todos')->insert([
+            'name' => 'Get some sleep!',
+            'description' => 'Can\'t take care of others without taking care of yourself first',
+        ]);
+      
+        DB::table('todos')->insert([
+            'name' => 'Love each other y\'all',
+            'description' => 'Love in the face of hate. Always be kind to and support one another.',
+        ]);
+      
+        DB::table('todos')->insert([
+            'name' => 'Change the world',
+            'description' => 'There is so much pain, inequality, and injustice in the world but we all have the power to do something about it.',
+        ]);
+      
     }
 }

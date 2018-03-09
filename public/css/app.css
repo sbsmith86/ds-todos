@@ -1,0 +1,47 @@
+body {
+  background-color: #4e2b63;
+  color: white;
+}
+h1 {
+  text-align: center;
+  font-family: 'Montserrat';
+  font-weight: 600;
+}
+.form-group{
+  font-family: 'Montserrat';
+}
+.panel{
+  font-family: 'PT Sans', sans-serif;
+}
+td {
+  width:80%;
+  color:black;
+}
+.panel-heading, th{
+  text-align: center;
+}
+.panel{
+  width:66%;
+  margin-left: 17%;
+}
+#add{
+  margin-left: 10%;
+}
+.panel-default > .panel-heading {
+  background: black;
+  color:white;
+}
+.btn.btn-secondary {
+  background-color:#222 !important;
+  color: white !important;
+}
+.btn.btn-delete {
+  background-color:  #ddd !important;
+  color: #222 !important;
+}
+img {
+  height:15%;
+  width:10%;
+  position:absolute;
+  top: 4%;
+}
